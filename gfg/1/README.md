@@ -1,17 +1,17 @@
-# Aggressive Cows
+# Gcd Of Two Numbers3459
 
 - **Platform:** GeeksforGeeks
-- **URL:** https://www.geeksforgeeks.org/problems/aggressive-cows/1
+- **URL:** https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
 - **Language:** Java
-- **Difficulty:** Medium
-- **Tags:** Expected Complexities, Topic Tags, Binary Search, Related Articles
+- **Difficulty:** Unknown
+- **Tags:** Not detected
 
 ## Problem Description
 
-Difficulty: MediumAccuracy: 59.57%Submissions: 244K+Points: 4Average Time: 30m
+Problem description was not available from the page.
 
 ## Solution
 
 See [1.java](1.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-23T05:13:47.913Z.
+> Synced by CodeSync on 2026-08-23T05:20:15.190Z.
