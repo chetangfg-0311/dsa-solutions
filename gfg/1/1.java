@@ -1,35 +1,22 @@
 class Solution {
-    public int aggressiveCows(int[] arr, int k) {
+    public static int gcd(int a, int b) {
         // code here
-        Arrays.sort(arr);
-        
-        int low = 1;
-        int high = arr[arr.length - 1] - arr[0];
-        int mid;
-        while(low <= high){
-            mid = ((high - low) / 2) + low;
-            
-            int count = 1;
-            int lastPlaced = 0;
-            for(int i = 1; i < arr.length; i++){
-                if(arr[i] - arr[lastPlaced] >= mid){
-                    count++;
-                    lastPlaced = i;
-                    
-                    if(count == k){
-                        break;
-                    }
-                }
-            }
-            
-            if(count < k){
-                high = mid - 1;
-            }
-            else{
-                low = mid + 1;
-            }
+        int low;
+        int high;
+        if ( a < b){
+            low = a;
+            high= b;
         }
-        
-        return high;
+        else{
+            low = b;
+            high = a;
+        }
+        int rem;
+        while (high % low != 0){
+            rem = high % low;
+            high = low;
+            low = rem;
+        }
+        return low;
     }
 }
