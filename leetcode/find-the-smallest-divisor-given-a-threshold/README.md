@@ -36,4 +36,4 @@ nums.length <= threshold <= 106
 
 See [find-the-smallest-divisor-given-a-threshold.java](find-the-smallest-divisor-given-a-threshold.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-23T05:14:49.640Z.
+> Synced by CodeSync on 2026-08-23T05:14:56.696Z.
