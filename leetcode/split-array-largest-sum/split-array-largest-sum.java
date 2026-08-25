@@ -4,6 +4,7 @@ class Solution {
         long high = 0;
 
         for (int num : nums){
+            low = Mant
         }
     }
 }
