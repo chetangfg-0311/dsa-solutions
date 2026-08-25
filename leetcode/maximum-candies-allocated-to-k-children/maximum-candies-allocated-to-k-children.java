@@ -1,6 +1,6 @@
 class Solution {
     public int maximumCandies(int[] candies, long k) {
-        int low = Integer.MAX_Val;
+        int low = Integer.MAX_VALUE;
         int high = 0;
         int mid;
 
