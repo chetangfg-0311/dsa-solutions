@@ -1,5 +1,4 @@
-ow = Integer.MAX_Value;
-        int high = 0;
+int high = 0;
         int mid;
 
         for(int candy : candies){
