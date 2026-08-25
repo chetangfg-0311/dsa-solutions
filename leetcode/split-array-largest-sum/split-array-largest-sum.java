@@ -1,6 +1,6 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
-        long low = ni;
+        long low = nums[0];
         long high = 0;
         long mid = 0;
 
@@ -22,4 +22,4 @@ class Solution {
             }
 
             if(subArrays > k){
-                low =
+                low
