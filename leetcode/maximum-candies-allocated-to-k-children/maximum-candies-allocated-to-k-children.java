@@ -1,7 +1,4 @@
-t low = 1;
-        int high = 0;
-        int mid;
-        int sum = 0;
+= 0;
         int result = 0;
 
         for(int candy : candies){
