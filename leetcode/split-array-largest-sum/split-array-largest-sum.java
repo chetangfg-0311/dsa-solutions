@@ -5,7 +5,7 @@ class Solution {
         long mid = 0;
 
         for (int num : nums){
-            high = ;
+            high += num ;
         }
 
         while (low < high){
