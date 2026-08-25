@@ -11,7 +11,7 @@ class Solution {
         while (low < high){
             mid = ((high - low) / 2) + low;
 
-            System.out.println("Mid is " +)
+            System.out.println("Mid is " + mid);
             long sum = 0;
             int subArrays = 1;
             for(int num : nums){
