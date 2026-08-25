@@ -1,4 +1,4 @@
-public int maximumCandies(int[] candies, long k) {
+{
         int low = Integer.MAX_Value;
         int high = 0;
         int mid;
@@ -17,6 +17,8 @@ public int maximumCandies(int[] candies, long k) {
             }
 
             if(childern > k){
+                low = mid + 1;
+            }else{
                 
             }
         }
