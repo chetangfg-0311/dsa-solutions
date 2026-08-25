@@ -13,7 +13,9 @@ class Solution {
             mid = ((high - low) / 2) + low;
             long sum = 0;
             for(int num : nums){
-                sum + 
+                sum += num;
+
+                if(sum )
             }
         }
         
