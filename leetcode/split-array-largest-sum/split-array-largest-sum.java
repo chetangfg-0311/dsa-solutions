@@ -5,7 +5,9 @@ class Solution {
 
         for (int num : nums){
             low = Math.min(low, num);
-            high = Math.max(high, )
+            high = Math.max(high, num);
         }
+
+        int 
     }
 }
