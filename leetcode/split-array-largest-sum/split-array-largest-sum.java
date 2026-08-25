@@ -1,5 +1,4 @@
-ow = Math.min(low, num);
-            high = Math.max(high, num);
+high = Math.max(high, num);
         }
 
         while (low < high){
@@ -18,7 +17,7 @@ ow = Math.min(low, num);
             if(subArrays > k){
                 low = mid + 1;
             }else{
-                high =- 
+                high = mid - 1;
             }
         }
         
