@@ -1,5 +1,4 @@
-igh = 0;
-        int mid;
+int mid;
         int sum = 0;
         int result = 0;
 
@@ -22,7 +21,7 @@ igh = 0;
             }
 
             if(childern > k){
-                resu
+                result = mid;
                 low = mid + 1;
             }else{
                 high = mid - 1;
