@@ -8,6 +8,7 @@ class Solution {
         for(int candy : candies){
             low = Math.min(candy, low);
             high = Math.max(candy, high);
+            sum += cand
         }
 
         while(low <= high){
