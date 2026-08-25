@@ -12,7 +12,7 @@ class Solution {
         while (low < high){
             mid = ((high - low) / 2) + low;
             long sum = 0;
-            int 
+            int subArrays  
             for(int num : nums){
                 sum += num;
 
