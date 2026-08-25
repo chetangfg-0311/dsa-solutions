@@ -1,5 +1,6 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
-        int low. = 
+        int low = 0;
     }
+        int high = 
 }
