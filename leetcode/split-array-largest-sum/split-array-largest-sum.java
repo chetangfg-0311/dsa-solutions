@@ -15,7 +15,7 @@ class Solution {
             for(int num : nums){
                 sum += num;
 
-                if(sum )
+                if(sum > mid)
             }
         }
         
