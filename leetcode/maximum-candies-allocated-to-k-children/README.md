@@ -36,4 +36,4 @@ Constraints:
 
 See [maximum-candies-allocated-to-k-children.java](maximum-candies-allocated-to-k-children.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-25T06:07:52.327Z.
+> Synced by CodeSync on 2026-08-25T06:14:44.975Z.
