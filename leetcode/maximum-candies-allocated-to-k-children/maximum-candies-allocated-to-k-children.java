@@ -1,4 +1,8 @@
-int mid;
+class Solution {
+    public int maximumCandies(int[] candies, long k) {
+        int low = Integer.MAX_Val;
+        int high = 0;
+        int mid;
 
         for(int candy : candies){
             low = Math.min(candy, low);
@@ -18,8 +22,3 @@ int mid;
             }else{
                 high = mid - 1;
             }
-        }
-
-        return low;
-    }
-}
