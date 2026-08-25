@@ -10,7 +10,9 @@ class Solution {
         }
 
         while (low < high){
-            mid = ((high - low) / 2) + low ;
+            mid = ((high - low) / 2) + low;
+
+            
         }
         
     }
