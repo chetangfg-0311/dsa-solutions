@@ -11,7 +11,7 @@ class Solution {
             sum += candy;
         }
 
-        if(sum )
+        if(sum < )
 
         while(low <= high){
             mid = ((high - low) / 2) + low;
