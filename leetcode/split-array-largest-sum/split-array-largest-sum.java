@@ -4,8 +4,8 @@ class Solution {
         long high = 0;
 
         for (int num : nums){
-            low = Math.max(low, num);
-            high = Math.max
+            low = Math.min(low, num);
+            high = Math.max(high, )
         }
     }
 }
