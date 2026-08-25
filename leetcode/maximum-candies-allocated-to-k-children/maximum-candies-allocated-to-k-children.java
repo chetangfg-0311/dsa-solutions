@@ -1,4 +1,10 @@
-high = Math.max(candy, high);
+int mid;
+        int sum = 0;
+        int result = 0;
+
+        for(int candy : candies){
+            
+            high = Math.max(candy, high);
             sum += candy;
         }
 
