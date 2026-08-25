@@ -1,4 +1,7 @@
-m = 0;
+t low = 1;
+        int high = 0;
+        int mid;
+        int sum = 0;
         int result = 0;
 
         for(int candy : candies){
@@ -19,7 +22,7 @@ m = 0;
                 childern += candy / mid;
             }
 
-            if(childern > k){
+            if(childern >= k){
                 low = mid + 1;
                 result = mid;
             }else{
