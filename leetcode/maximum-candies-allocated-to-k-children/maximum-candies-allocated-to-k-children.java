@@ -1,5 +1,4 @@
-int high = 0;
-        int mid;
+int mid;
 
         for(int candy : candies){
             low = Math.min(candy, low);
@@ -21,5 +20,6 @@ int high = 0;
             }
         }
 
+        return low;
     }
 }
