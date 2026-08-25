@@ -1,5 +1,4 @@
-class Solution {
-    public int maximumCandies(int[] candies, long k) {
+public int maximumCandies(int[] candies, long k) {
         int low = Integer.MAX_Value;
         int high = 0;
         int mid;
@@ -17,7 +16,9 @@ class Solution {
                 childern += candy / mid;
             }
 
-            if(childern >)
+            if(childern > k){
+                
+            }
         }
 
     }
