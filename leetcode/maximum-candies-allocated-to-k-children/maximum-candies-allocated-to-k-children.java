@@ -12,7 +12,7 @@ class Solution {
         }
 
         if(sum < k){
-            retu
+            return 0;
         }
 
         while(low <= high){
