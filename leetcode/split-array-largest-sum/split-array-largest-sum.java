@@ -1,4 +1,4 @@
-;
+long mid = 0;
 
         for (int num : nums){
             low = Math.min(low, num);
@@ -19,7 +19,7 @@
             }
 
             if(subArrays > k){
-                high = mid  
+                
             }
         }
         
