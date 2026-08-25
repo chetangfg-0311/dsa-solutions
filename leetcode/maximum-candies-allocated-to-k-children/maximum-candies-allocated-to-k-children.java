@@ -1,6 +1,6 @@
 1class Solution {
 2    public int maximumCandies(int[] candies, long k) {
-3        int low = 0;
+3        int low = 1;
 4        int high = 0;
 5        int mid;
 6        int sum = 0;
