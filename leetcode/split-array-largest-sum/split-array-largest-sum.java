@@ -1,4 +1,4 @@
-ong high = 0;
+ng high = 0;
         long mid = 0;
 
         for (int num : nums){
@@ -19,7 +19,7 @@ ong high = 0;
                 }
             }
 
-            if(subArrays )
+            if(subArrays >)
         }
         
     }
