@@ -1,4 +1,11 @@
-x(high, num);
+class Solution {
+    public int splitArray(int[] nums, int k) {
+        long low = nums[0];
+        long high = 0;
+        long mid = 0;
+
+        for (int num : nums){
+            high = Math.max(high, num);
         }
 
         while (low < high){
