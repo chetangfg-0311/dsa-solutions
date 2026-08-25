@@ -1,4 +1,5 @@
-int mid;
+nt high = 0;
+        int mid;
         int sum = 0;
         int result = 0;
 
