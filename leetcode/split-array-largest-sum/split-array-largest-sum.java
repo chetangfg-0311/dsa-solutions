@@ -1,11 +1,10 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
-        long low = Integer.MAX_VALUE;
+        long low = ni;
         long high = 0;
         long mid = 0;
 
         for (int num : nums){
-    
             high = Math.max(high, num);
         }
 
@@ -23,7 +22,4 @@ class Solution {
             }
 
             if(subArrays > k){
-                low = mid + 1;
-            }else{
-                high = mid - 1;
-            }
+                low =
