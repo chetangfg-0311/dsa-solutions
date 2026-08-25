@@ -12,11 +12,13 @@ class Solution {
         while (low < high){
             mid = ((high - low) / 2) + low;
             long sum = 0;
+            int 
             for(int num : nums){
                 sum += num;
 
                 if(sum > mid){
-                    sum = num
+                    sum = num;
+
                 }
             }
         }
