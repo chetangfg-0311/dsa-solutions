@@ -1,5 +1,4 @@
-long low = Integer.MAX_VALUE;
-        long high = 0;
+long high = 0;
         long mid = 0;
 
         for (int num : nums){
@@ -19,6 +18,8 @@ long low = Integer.MAX_VALUE;
                     subArrays++;
                 }
             }
+
+            if()
         }
         
     }
