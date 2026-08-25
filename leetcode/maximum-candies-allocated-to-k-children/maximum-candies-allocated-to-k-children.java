@@ -17,7 +17,7 @@ class Solution {
                 childern += candy / mid;
             }
 
-            
+            if(childern )
         }
 
     }
