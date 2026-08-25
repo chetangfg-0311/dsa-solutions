@@ -1,4 +1,6 @@
-int mid;
+nt low = 1;
+        int high = 0;
+        int mid;
         int sum = 0;
         int result = 0;
 
@@ -20,13 +22,14 @@ int mid;
                 childern += candy / mid;
             }
 
-            if(childern >= k){
+            if(childern > k){
                 low = mid + 1;
+                result = mid;
             }else{
                 high = mid - 1;
             }
         }
 
-        return low;
+        return result;
     }
 }
