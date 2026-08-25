@@ -11,9 +11,9 @@ class Solution {
 
         while (low < high){
             mid = ((high - low) / 2) + low;
-
+            long sum = 
             for(int num : nums){
-                
+
             }
         }
         
