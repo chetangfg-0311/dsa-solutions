@@ -1,5 +1,4 @@
-{
-        int low = Integer.MAX_Value;
+ow = Integer.MAX_Value;
         int high = 0;
         int mid;
 
@@ -19,7 +18,7 @@
             if(childern > k){
                 low = mid + 1;
             }else{
-                
+                high = mid - 1;
             }
         }
 
