@@ -1,4 +1,4 @@
-h.max(high, num);
+x(high, num);
         }
 
         while (low < high){
@@ -20,6 +20,6 @@ h.max(high, num);
                 high = mid - 1;
             }
         }
-        return low;
+        return (int)low;
     }
 }
