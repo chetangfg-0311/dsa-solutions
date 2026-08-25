@@ -1,5 +1,4 @@
-class Solution {
-    public int splitArray(int[] nums, int k) {
+nums, int k) {
         long low = Integer.MAX_VALUE;
         long high = 0;
         long mid = 0;
@@ -18,7 +17,7 @@ class Solution {
 
                 if(sum > mid){
                     sum = num;
-                    su
+                    subArrays
                 }
             }
         }
