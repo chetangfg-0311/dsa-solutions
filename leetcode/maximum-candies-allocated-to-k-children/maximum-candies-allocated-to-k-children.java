@@ -3,6 +3,7 @@ class Solution {
         int low = Integer.MAX_VALUE;
         int high = 0;
         int mid;
+        int sum = 0;
 
         for(int candy : candies){
             low = Math.min(candy, low);
