@@ -1,9 +1,4 @@
-= 0;
-        int result = 0;
-
-        for(int candy : candies){
-            
-            high = Math.max(candy, high);
+high = Math.max(candy, high);
             sum += candy;
         }
 
@@ -21,12 +16,11 @@
 
             if(childern >= k){
                 low = mid + 1;
-                result = mid;
             }else{
                 high = mid - 1;
             }
         }
 
-        return result;
+        return low;
     }
 }
