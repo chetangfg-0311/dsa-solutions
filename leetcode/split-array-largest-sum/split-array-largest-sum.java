@@ -4,7 +4,7 @@ class Solution {
         long high = 0;
 
         for (int num : nums){
-            low = Math.ma
+            low = Math.max(low, )
         }
     }
 }
