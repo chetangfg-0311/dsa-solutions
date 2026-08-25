@@ -1,10 +1,10 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
-        long low = 0;
+        long low = Intege;
         long high = 0;
 
         for (int num : nums){
-            low = Mant
+            low = Math.
         }
     }
 }
