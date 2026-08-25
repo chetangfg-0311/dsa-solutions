@@ -12,7 +12,7 @@ class Solution {
         while(low <= high){
             mid = ((high - low) / 2) + low;
 
-            int childern = 0;
+            long childern = 0;
             for(int candy : candies){
                 childern += candy / mid;
             }
