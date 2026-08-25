@@ -2,13 +2,14 @@ class Solution {
     public int splitArray(int[] nums, int k) {
         long low = Integer.MAX_VALUE;
         long high = 0;
-        long mid 
+        long mid = 0;
 
         for (int num : nums){
             low = Math.min(low, num);
             high = Math.max(high, num);
         }
 
+        while (low < hi)
         
     }
 }
