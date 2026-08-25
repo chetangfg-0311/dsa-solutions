@@ -3,7 +3,7 @@
 3        int low = 1;
 4        int high = 0;
 5        int mid;
-6        int sum = 0;
+6        long sum = 0;
 7        int result = 0;
 8
 9        for(int candy : candies){
