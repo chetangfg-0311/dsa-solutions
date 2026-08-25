@@ -14,7 +14,7 @@ class Solution {
 
             int childern = 0;
             for(int candy : candies){
-                childern += candy
+                childern += candy / mid;
             }
         }
 
