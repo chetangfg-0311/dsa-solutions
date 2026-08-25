@@ -1,7 +1,4 @@
-class Solution {
-    public int maximumCandies(int[] candies, long k) {
-        int low = 1;
-        int high = 0;
+igh = 0;
         int mid;
         int sum = 0;
         int result = 0;
@@ -25,6 +22,13 @@ class Solution {
             }
 
             if(childern > k){
+                resu
                 low = mid + 1;
             }else{
                 high = mid - 1;
+            }
+        }
+
+        return result;
+    }
+}
