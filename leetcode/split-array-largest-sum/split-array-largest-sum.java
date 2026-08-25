@@ -1,5 +1,4 @@
-nums, int k) {
-        long low = Integer.MAX_VALUE;
+long low = Integer.MAX_VALUE;
         long high = 0;
         long mid = 0;
 
@@ -17,7 +16,7 @@ nums, int k) {
 
                 if(sum > mid){
                     sum = num;
-                    subArrays
+                    subArrays++;
                 }
             }
         }
