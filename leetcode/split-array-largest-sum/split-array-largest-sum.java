@@ -9,7 +9,9 @@ class Solution {
             high = Math.max(high, num);
         }
 
-        while (low < hi)
+        while (low < high){
+            
+        }
         
     }
 }
