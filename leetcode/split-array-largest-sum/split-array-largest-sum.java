@@ -12,7 +12,9 @@ class Solution {
         while (low < high){
             mid = ((high - low) / 2) + low;
 
-            for(int num :)
+            for(int num : nums){
+                
+            }
         }
         
     }
