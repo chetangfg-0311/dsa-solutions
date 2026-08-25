@@ -4,7 +4,7 @@ class Solution {
         int high = 0;
         int mid;
         int sum = 0;
-        
+        int result = 0;
 
         for(int candy : candies){
             
