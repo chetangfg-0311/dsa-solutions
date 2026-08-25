@@ -4,6 +4,7 @@ class Solution {
         int high = 0;
         int mid;
         int sum = 0;
+        
 
         for(int candy : candies){
             
@@ -24,4 +25,6 @@ class Solution {
             }
 
             if(childern > k){
-                low = mid + 1
+                low = mid + 1;
+            }else{
+                high = mid - 1;
