@@ -11,7 +11,9 @@ class Solution {
             sum += candy;
         }
 
-        if(sum < )
+        if(sum < k){
+            retu
+        }
 
         while(low <= high){
             mid = ((high - low) / 2) + low;
