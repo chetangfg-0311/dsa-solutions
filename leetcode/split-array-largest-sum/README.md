@@ -38,4 +38,4 @@ Constraints:
 
 See [split-array-largest-sum.java](split-array-largest-sum.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-25T11:23:31.600Z.
+> Synced by CodeSync on 2026-08-25T11:23:38.568Z.
