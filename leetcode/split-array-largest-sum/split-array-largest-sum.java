@@ -3,6 +3,6 @@ class Solution {
         int low = 0;
         int high = 0;
 
-        for (int nums : )
+        for (int num : nums)
     }
 }
