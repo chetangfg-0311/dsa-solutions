@@ -1,11 +1,4 @@
-class Solution {
-    public int splitArray(int[] nums, int k) {
-        long low = nums[0];
-        long high = 0;
-        long mid = 0;
-
-        for (int num : nums){
-            high = Math.max(high, num);
+h.max(high, num);
         }
 
         while (low < high){
@@ -22,4 +15,11 @@ class Solution {
             }
 
             if(subArrays > k){
-                low
+                low = mid + 1;
+            }else{
+                high = mid - 1;
+            }
+        }
+        return low;
+    }
+}
