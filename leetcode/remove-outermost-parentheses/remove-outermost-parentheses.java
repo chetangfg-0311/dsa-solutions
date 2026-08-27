@@ -11,7 +11,7 @@ class Solution {
             }
 
             if(count == 0){
-                System.out.println("cou")
+                System.out.println("count 0 index ")
                 ans  += s.substring(outerFirst + 1, i) + s.substring(i + 1);
             }
         }
