@@ -10,6 +10,6 @@ class Solution {
             }
         }
 
-        return result.to
-    }
+        return result.toString();
+            }
 }
