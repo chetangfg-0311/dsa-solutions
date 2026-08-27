@@ -5,7 +5,7 @@ class Solution {
 
         for(int i = s.length() - 1; i >= 0; i--){
             if(s.charAt(i) == ' ' && i != endIdx){
-                result.append(s.subString(i + 1, endIdx));
+                result.append(s.substring(i + 1, endIdx));
                 endIdx = i;
             }
         }
