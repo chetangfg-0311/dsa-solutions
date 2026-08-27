@@ -4,5 +4,5 @@ class Solution {
         }
     }
         int endIdx = s.length - 1;
-            if(s.)
+            if(s.charat(i) == " ")
 }
