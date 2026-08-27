@@ -11,7 +11,7 @@ class Solution {
             }
 
             if(count == 0){
-                
+                System.
                 ans  += s.substring(outerFirst + 1, i) + s.substring(i + 1);
             }
         }
