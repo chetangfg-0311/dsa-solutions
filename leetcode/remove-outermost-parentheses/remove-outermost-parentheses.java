@@ -13,6 +13,7 @@ class Solution {
             if(count == 0){
                 System.out.println("count 0 index " + i);
                 ans  += s.substring(outerFirst + 1, i) + s.substring(i + 1);
+                l
             }
         }
 
