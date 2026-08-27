@@ -8,5 +8,7 @@ class Solution {
                 result.append(s.subString(i + 1, endIdx))
             }
         }
+
+        re
     }
 }
