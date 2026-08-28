@@ -1,7 +1,7 @@
 class Solution {
     public boolean rotateString(String s, String goal) {
 
-        if(s.length() != ) 
+        if(s.length() != go) 
         s = s+s;
 
         if(s.contains(goal)){
