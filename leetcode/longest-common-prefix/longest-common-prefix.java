@@ -1,5 +1,4 @@
-ution {
-    public String longestCommonPrefix(String[] strs) {
+public String longestCommonPrefix(String[] strs) {
 
         if(strs.length() == 1){
             return strs[0];
@@ -15,6 +14,6 @@ ution {
             ans.append(strs[0])
         }
 
-        return ans.to;
+        return ans.toString();
     }
 }
