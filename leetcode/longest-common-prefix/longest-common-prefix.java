@@ -4,7 +4,7 @@ class Solution {
         if(strs.length() == 1){
             return strs[0];
         }
-        String 
+        StringBuilder ans = new 
         
         Arrays.sort(strs);
 
