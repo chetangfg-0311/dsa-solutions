@@ -1,16 +1,16 @@
-class Solution:
-    def longestCommonPrefix(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: str
-        """
-        if len(strs) == 0:
-            return '' 
-        res = ''
-        strs = sorted(strs)
-        for i in strs[0]:
-            if strs[-1].startswith(res+i):
-                res += i
-            else:
-                break
-        return res
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+
+        if(strs.length() == 1){
+            return strs[0];
+        }
+        
+        Arrays.sort(strs);
+
+        for(int i = 0; i < Math.min(strs[0].length(), strs[strs.length - 1].length()); i++){
+            if(strs.charAt[0] != strs.charAt[strs.length - 1]){
+                re
+            }
+        }
+    }
+}
