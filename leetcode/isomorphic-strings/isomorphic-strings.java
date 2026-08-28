@@ -1,6 +1,4 @@
-class Solution {
-    public boolean isIsomorphic(String s, String t) {
-        if(s.length() != t.length()){
+()){
             return false;
         }
         HashMap<Character, Character> mapS = new HashMap<>();
@@ -16,7 +14,7 @@ class Solution {
         HashMap<Character, Character> mapT = new HashMap<>();
 
         for(int i = 0; i < s.length(); i++){
-            if(map.containsKey(t.charAt(i)) && map.get(t.charAt(i)) != s.charAt(i)){
+            if(mapT.containsKey(t.charAt(i)) && mapT.get(t.charAt(i)) != s.charAt(i)){
                 return false;
             }
 
