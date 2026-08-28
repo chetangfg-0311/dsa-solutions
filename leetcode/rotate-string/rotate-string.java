@@ -1,15 +1,17 @@
-1class Solution {
-2    public boolean rotateString(String s, String goal) {
-3
-4        if(s.length() != goal.length()){
-5            return false;
-6        } 
-7        s = s+s;
-8
-9        if(s.contains(goal)){
-10            return true;
-11        }
-12
-13        return false;
-14    }
-15}
+class Solution {
+    public boolean rotateString(String s, String goal) {
+        if(s.equals(goal)){
+            return true;
+        }
+        String A =""+s.charAt(0);
+        String answer = "";
+        for(int i = 1;i<s.length();i++){
+            answer = s.substring(i,s.length())+A;
+            if(answer.equals(goal)){
+                return true;
+            }
+            A = A+s.charAt(i);
+        }
+        return false;
+    }
+}
