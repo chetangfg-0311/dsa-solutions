@@ -33,4 +33,4 @@ strs[i] consists of only lowercase English letters if it is non-empty.
 
 See [longest-common-prefix.java](longest-common-prefix.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-28T10:47:18.766Z.
+> Synced by CodeSync on 2026-08-28T10:54:59.489Z.
