@@ -1,7 +1,4 @@
-()){
-            return false;
-        }
-        HashMap<Character, Character> mapS = new HashMap<>();
+p<>();
 
         for(int i = 0; i < s.length(); i++){
             if(mapS.containsKey(s.charAt(i)) && mapS.get(s.charAt(i)) != t.charAt(i)){
@@ -18,7 +15,7 @@
                 return false;
             }
 
-            map.put(t.charAt(i), s.charAt(i));
+            mapT.put(t.charAt(i), s.charAt(i));
         }
         
         return true;
