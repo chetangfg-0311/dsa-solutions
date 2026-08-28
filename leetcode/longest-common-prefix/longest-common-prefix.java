@@ -12,7 +12,7 @@ class Solution {
             if(strs.charAt[0] != strs.charAt[strs.length - 1]){
                 return ans.toString();
             }
-            ans.append(strs.)
+            ans.append(strs[])
         }
     }
 }
