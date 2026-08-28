@@ -6,7 +6,7 @@ class Solution {
         HashMap<Character, Character> map = new HashMap<>();
 
         for(int i = 0; i < s.length(); i++){
-            if(map.containsKey(s.charAt(i)) && map.)
+            if(map.containsKey(s.charAt(i)) && map.get(s.charAt()))
         }
         return true;
     }
