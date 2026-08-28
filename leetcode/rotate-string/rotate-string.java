@@ -1,22 +1,15 @@
-class Solution { 
-    public boolean rotateString(String s, String goal) { 
-        int n = s.length(); 
-        if (n != goal.length()) { 
-            return false; 
-        } 
-        for (int i=0;i<n;i++) {
-            boolean m = true; 
-            for (int j=0; j<n;j++) { 
-                int index=(i+j) % n; 
-                if (s.charAt(index)!=goal.charAt(j)) { 
-                    m=false; 
-                    break; 
-                } 
-            } 
-            if(m) { 
-                return true; 
-            } 
-        } 
-        return false; 
-    } 
-}
+1class Solution {
+2    public boolean rotateString(String s, String goal) {
+3
+4        if(s.length() != goal.length()){
+5            return false;
+6        } 
+7        s = s+s;
+8
+9        if(s.contains(goal)){
+10            return true;
+11        }
+12
+13        return false;
+14    }
+15}
