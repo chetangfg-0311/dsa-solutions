@@ -53,4 +53,4 @@ s and t consist of any valid ascii character.
 
 See [isomorphic-strings.java](isomorphic-strings.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-28T11:30:10.957Z.
+> Synced by CodeSync on 2026-08-28T11:31:28.814Z.
