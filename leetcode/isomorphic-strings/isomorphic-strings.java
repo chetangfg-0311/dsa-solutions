@@ -3,7 +3,7 @@ class Solution {
         if(s.length() != t.length()){
             return false;
         }
-        HashMap<Character, Character> map = new HashMap<>();
+        HashMap<Character, Character> mapS = new HashMap<>();
 
         for(int i = 0; i < s.length(); i++){
             if(map.containsKey(s.charAt(i)) && map.get(s.charAt(i)) != t.charAt(i)){
@@ -12,7 +12,6 @@ class Solution {
 
             map.put(s.charAt(i), t.charAt(i));
         }
-
         
         return true;
     }
