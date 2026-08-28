@@ -30,4 +30,4 @@ s and goal consist of lowercase English letters.
 
 See [rotate-string.java](rotate-string.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-28T15:13:28.576Z.
+> Synced by CodeSync on 2026-08-28T15:13:35.248Z.
