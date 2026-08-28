@@ -2,5 +2,5 @@ class Solution {
     public boolean isIsomorphic(String s, String t) {
         return true;
     }
-        HashMap<Character, Character> map = new Hasm
+        HashMap<Character, Character> map = new HashMap<>();
 }
