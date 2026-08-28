@@ -15,6 +15,6 @@ olution {
             ans.append(strs[0])
         }
 
-        return anss
+        return ans;
     }
 }
