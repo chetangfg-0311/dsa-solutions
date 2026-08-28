@@ -3,7 +3,7 @@ class Solution {
        String result = "";
 
         for(int i = num.length() - 1; i >= 0; i++){
-            if(c % 2 != 0){
+            if( % 2 != 0){
                 if(result == "" || c > result.charAt(0)){
                     result = Character.toString(c);
                 }
