@@ -6,11 +6,11 @@ class Solution {
         HashMap<Character, Character> mapS = new HashMap<>();
 
         for(int i = 0; i < s.length(); i++){
-            if(mapS.containsKey(s.charAt(i)) && map.get(s.charAt(i)) != t.charAt(i)){
+            if(mapS.containsKey(s.charAt(i)) && mapS.get(s.charAt(i)) != t.charAt(i)){
                 return false;
             }
 
-            map.put(s.charAt(i), t.charAt(i));
+            mapS.put(s.charAt(i), t.charAt(i));
         }
 
         HashMap<Character, Character> mapT = new HashMap<>();
@@ -25,3 +25,4 @@ class Solution {
         
         return true;
     }
+}
