@@ -21,4 +21,6 @@ class Solution {
             map.put(s.charAt(i), t.charAt(i));
         }
         
-        return t
+        return true;
+    }
+}
