@@ -2,7 +2,7 @@ class Solution {
     public boolean rotateString(String s, String goal) {
         s = s+s;
 
-        if(s.contan(goal)){
+        if(s.contans(goal)){
             return true;
         }
 
