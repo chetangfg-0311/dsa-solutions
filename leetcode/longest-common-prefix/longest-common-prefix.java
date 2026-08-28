@@ -9,7 +9,7 @@ class Solution {
         Arrays.sort(strs);
 
         for(int i = 0; i < Math.min(strs[0].length(), strs[strs.length - 1].length()); i++){
-            if(strs[i].charAt[i] != strs[i].charAt[i]){
+            if(strs[i].charAt[i] != strs[str].charAt[i]){
                 return ans.toString();
             }
             ans.append(strs[0])
