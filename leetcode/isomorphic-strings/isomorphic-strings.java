@@ -10,7 +10,7 @@ class Solution {
                 return false;
             }
 
-            map.put(s.charAt(i), t.c)
+            map.put(s.charAt(i), t.char)
         }
         return true;
     }
