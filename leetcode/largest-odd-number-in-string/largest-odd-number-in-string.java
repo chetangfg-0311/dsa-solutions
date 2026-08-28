@@ -2,7 +2,7 @@ class Solution {
     public String largestOddNumber(String num) {
        String result = "";
 
-        for(inti i ){
+        for(int i = num.length - 1;){
             if(c % 2 != 0){
                 if(result == "" || c > result.charAt(0)){
                     result = Character.toString(c);
