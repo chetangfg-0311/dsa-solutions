@@ -1,5 +1,4 @@
-ean isIsomorphic(String s, String t) {
-        if(s.length() != t.length()){
+)){
             return false;
         }
         HashMap<Character, Character> mapS = new HashMap<>();
@@ -15,7 +14,7 @@ ean isIsomorphic(String s, String t) {
         HashMap<Character, Character> mapT = new HashMap<>();
 
         for(int i = 0; i < s.length(); i++){
-            if(map.containsKey(s.charAt(i)) && map.get(s.charAt(i)) != t.charAt(i)){
+            if(map.containsKey(t.charAt(i)) && map.get(t.charAt(i)) != t.charAt(i)){
                 return false;
             }
 
