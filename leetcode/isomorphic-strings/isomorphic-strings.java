@@ -5,7 +5,9 @@ class Solution {
         }
         HashMap<Character, Character> map = new HashMap<>();
 
-        for(int i = 0; i < s.length() )
+        for(int i = 0; i < s.length(); i++){
+            
+        }
         return true;
     }
 }
