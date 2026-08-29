@@ -1,4 +1,4 @@
-c : s.toCharArray()){
+s.toCharArray()){
             map.put(c, map.getOrDefault(c,0) + 1);
         }
 
@@ -14,7 +14,7 @@ c : s.toCharArray()){
         for(int i = 0; i < pairs.length; i++){
             int frequency = pairs[i].freq;
             while (frequency != 0){
-                sb.append(pairs[i].alpha);
+                sb.append((cha)pairs[i].alpha);
                 frequency--;
             }
         }
