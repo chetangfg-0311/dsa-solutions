@@ -1,6 +1,4 @@
-}
-
-        Pair[] pairs = new Pair[map.size()];
+Pair[] pairs = new Pair[map.size()];
         int idx = 0;
         for(char c : map.keySet()){
             pairs[idx] = new Pair(map.get(c), c);
@@ -17,6 +15,6 @@
             }
         }
 
-        re
+        return sb.
     }
 }
