@@ -10,6 +10,7 @@ class Solution {
 
         String str = sb.toString();
 
-        return Integer.parseInt(str;
+        
+        return "";
     }
 }
