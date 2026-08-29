@@ -1,4 +1,4 @@
-anToInt(String s) {
+{
         HashMap<Character, Integer> map = new HashMap<>();
 
         map.put('I', 1);
@@ -15,7 +15,9 @@ anToInt(String s) {
             if(map.get(s.charAt(i)) >= map.get(s.charAt(i + 1))){
                 sum += map.get(s.charAt(i));
             }
-            else
+            else{
+                
+            }
         }
     }
 }
