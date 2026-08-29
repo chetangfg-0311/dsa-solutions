@@ -1,4 +1,13 @@
 class Solution {
+    class Pair{
+        int freq;
+        int alpha;
+
+        Pair(int freq, int alpha){
+            this.freq = freq;
+            this.alpha = alpha;
+        }
+    }
     public String frequencySort(String s) {
         Comparator<Pair> comp = (o1,o2) -> o2.freq < o1.freq ?  1 : 0;
 
@@ -16,4 +25,3 @@ class Solution {
         }
 
         Arrays.sort(pairs, comp);
-        StringBuilder sb = new StringBuilder();
