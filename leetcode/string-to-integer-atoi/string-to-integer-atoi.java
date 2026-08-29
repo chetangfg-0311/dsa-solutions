@@ -8,6 +8,6 @@ class Solution {
             }
         }
 
-        String str = s
+        String str = sb.toString();
     }
 }
