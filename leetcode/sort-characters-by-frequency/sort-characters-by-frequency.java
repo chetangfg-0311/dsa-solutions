@@ -9,7 +9,7 @@ class Solution {
         }
     }
     public String frequencySort(String s) {
-        Comparator<Pair> comp = (o1,o2) -> o2.freq < o1.freq ?  1 : 0;
+        Comparator<Pair> comp = (o1,o2) -> o2.freq < o1.freq ?  1 : -1;
 
         HashMap<Character, Integer> map = new HashMap<>();
 
