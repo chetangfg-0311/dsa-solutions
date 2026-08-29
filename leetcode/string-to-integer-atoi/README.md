@@ -99,4 +99,4 @@ s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+
 
 See [string-to-integer-atoi.java](string-to-integer-atoi.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-29T11:23:56.061Z.
+> Synced by CodeSync on 2026-08-29T11:24:02.614Z.
