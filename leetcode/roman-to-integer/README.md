@@ -57,4 +57,4 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 See [roman-to-integer.java](roman-to-integer.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-29T11:02:31.649Z.
+> Synced by CodeSync on 2026-08-29T11:02:37.791Z.
