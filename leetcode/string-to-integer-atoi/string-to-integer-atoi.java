@@ -6,7 +6,7 @@ class Solution {
             if((s.charAt(i) >='0' && s.charAt(i) <= '9')){
                 sb.append(s.charAt(i));
             }
-            else
+            else if(s.charAt())
         }
 
         String str = sb.toString();
