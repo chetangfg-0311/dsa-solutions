@@ -8,6 +8,6 @@ class Solution {
             }
         }
 
-        Stri
+        String str 
     }
 }
