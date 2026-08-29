@@ -46,4 +46,4 @@ It is guaranteed that parentheses expression s is a VPS.
 
 See [maximum-nesting-depth-of-the-parentheses.java](maximum-nesting-depth-of-the-parentheses.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-29T10:42:42.090Z.
+> Synced by CodeSync on 2026-08-29T10:42:57.407Z.
