@@ -8,6 +8,6 @@ class Solution {
             }
         }
 
-        String str = 
+        String str = s
     }
 }
