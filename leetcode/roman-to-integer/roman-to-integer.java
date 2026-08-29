@@ -1,5 +1,4 @@
-{
-        HashMap<Character, Integer> map = new HashMap<>();
+HashMap<Character, Integer> map = new HashMap<>();
 
         map.put('I', 1);
         map.put('V', 5);
@@ -16,7 +15,7 @@
                 sum += map.get(s.charAt(i));
             }
             else{
-                
+                sum += 
             }
         }
     }
