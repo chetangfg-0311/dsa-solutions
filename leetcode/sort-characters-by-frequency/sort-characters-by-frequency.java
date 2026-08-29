@@ -1,5 +1,4 @@
-1);
-        }
+}
 
         Pair[] pairs = new Pair[map.size()];
         int idx = 0;
@@ -17,5 +16,7 @@
                 frequency--;
             }
         }
+
+        re
     }
 }
