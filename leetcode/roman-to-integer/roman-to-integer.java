@@ -3,6 +3,7 @@ class Solution {
         HashMap<Character, Integer> map = new HashMap<>();
 
         map.put('I', 1);
-        map.put('V', )
+        map.put('V', 5);
+        map.put()
     }
 }
