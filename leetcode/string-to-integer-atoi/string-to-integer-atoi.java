@@ -11,6 +11,6 @@ class Solution {
         String str = sb.toString();
 
         System.out.println(str);
-        return "";
+        return -1;
     }
 }
