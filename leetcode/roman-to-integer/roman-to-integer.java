@@ -4,6 +4,7 @@ class Solution {
 
         map.put('I', 1);
         map.put('V', 5);
-        map.put('X', )
+        map.put('X', 10);
+        map.put()
     }
 }
