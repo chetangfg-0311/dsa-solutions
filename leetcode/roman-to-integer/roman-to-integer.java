@@ -7,6 +7,7 @@ class Solution {
         map.put('X', 10);
         map.put('L', 50);
         map.put('C', 100);
-        map.put(D)
+        map.put('D', 500);
+        
     }
 }
