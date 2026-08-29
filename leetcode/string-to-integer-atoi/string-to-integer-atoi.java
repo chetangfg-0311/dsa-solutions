@@ -10,6 +10,6 @@ class Solution {
 
         String str = sb.toString();
 
-        retu
+        return Integer.parseInt()
     }
 }
