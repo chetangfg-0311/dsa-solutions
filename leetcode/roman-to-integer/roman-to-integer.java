@@ -11,5 +11,7 @@ class Solution {
         map.put('M', 1000);
 
         int sum = map.get(s.length() - 1);
+
+        for(int i)
     }
 }
