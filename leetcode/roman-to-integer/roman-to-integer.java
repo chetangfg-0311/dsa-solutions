@@ -8,6 +8,8 @@ class Solution {
         map.put('L', 50);
         map.put('C', 100);
         map.put('D', 500);
-        map.put('M')
+        map.put('M', 1000);
+
+        
     }
 }
