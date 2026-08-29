@@ -1,5 +1,7 @@
 class Solution {
     public int romanToInt(String s) {
-        HashMap<Character, Integer> map = new HashMap<>()
+        HashMap<Character, Integer> map = new HashMap<>();
+
+        map.put('')
     }
 }
