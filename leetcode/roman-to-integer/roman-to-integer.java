@@ -15,7 +15,7 @@ HashMap<Character, Integer> map = new HashMap<>();
                 sum += map.get(s.charAt(i));
             }
             else{
-                sum += 
+                sum 
             }
         }
     }
