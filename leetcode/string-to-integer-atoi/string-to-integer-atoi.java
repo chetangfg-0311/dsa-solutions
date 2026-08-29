@@ -1,5 +1,5 @@
 class Solution {
     public int myAtoi(String s) {
-        fo
+        for(int i = 0; i < s)
     }
 }
