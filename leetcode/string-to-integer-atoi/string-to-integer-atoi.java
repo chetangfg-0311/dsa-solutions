@@ -10,7 +10,7 @@ class Solution {
 
         String str = sb.toString();
 
-        System.out.println()
+        System.out.println(str);
         return "";
     }
 }
