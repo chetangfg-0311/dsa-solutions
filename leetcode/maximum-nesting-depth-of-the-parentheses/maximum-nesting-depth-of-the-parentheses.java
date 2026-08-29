@@ -1,13 +1,18 @@
-class Solution:
-    def maxDepth(self, s: str) -> int:
-        max_depth = 0
-        current_depth = 0
-        
-        for char in s:
-            if char == '(':
-                current_depth += 1
-                max_depth = max(max_depth, current_depth)
-            elif char == ')':
-                current_depth -= 1
-        
-        return max_depth
+class Solution {
+    public int maxDepth(String s) {
+        int count = 0;
+        int ans = 0;
+
+        for(int i = 0; i < s.length(); i++){
+            if(s.charAt(i) == '('){
+                count++;
+                ans = Math.max(ans, count);
+            }
+            else if(s.charAt(i) == ')'){
+                
+            }
+        }
+
+        return ans;
+    }
+}
