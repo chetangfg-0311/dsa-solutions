@@ -1,5 +1,4 @@
-class Solution {
-    public int romanToInt(String s) {
+anToInt(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
 
         map.put('I', 1);
@@ -14,8 +13,9 @@ class Solution {
 
         for(int i = s.length() - 2; i >= 0; i--){
             if(map.get(s.charAt(i)) >= map.get(s.charAt(i + 1))){
-                sum += map.get(s.charAt)
+                sum += map.get(s.charAt(i));
             }
+            else
         }
     }
 }
