@@ -9,7 +9,7 @@ class Solution {
                 ans = Math.max(ans, count);
             }
             else if(s.charAt(i) == ')'){
-                
+                count--;
             }
         }
 
