@@ -1,4 +1,4 @@
-gBuilder result = new StringBuilder();
+esult = new StringBuilder();
 
         int left = s.length() - 1;
         int right = left;
