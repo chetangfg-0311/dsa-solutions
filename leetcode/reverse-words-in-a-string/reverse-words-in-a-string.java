@@ -6,7 +6,7 @@ class Solution {
         int right = left;
 
         while(left > 0){
-            while(left > s.charAt(i) == ' ')
+            while(left > -1 &&s.charAt(i) == ' ')
         }
     }
 }
