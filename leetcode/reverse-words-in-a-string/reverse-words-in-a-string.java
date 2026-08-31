@@ -1,4 +1,4 @@
-(String s) {
+ords(String s) {
         StringBuilder result = new StringBuilder();
 
         int left = s.length() - 1;
@@ -14,7 +14,7 @@
                 left--;
             }
             System.out.println("Left = " + left + " Right = " + right);
-            result.append(s.substring(left + 1, right + 1));
+            result.append(s.substring(left + 1, right));
         }
 
         return result.toString();
