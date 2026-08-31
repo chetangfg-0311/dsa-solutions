@@ -1,4 +1,4 @@
-() - 1;
+) - 1;
         int right = left;
 
         while(left > -1){
@@ -15,6 +15,6 @@
         }
 
         String result = sb.toString();
-        return result.substring(0, result)
+        return result.substring(0, result.)
     }
 }
