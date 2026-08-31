@@ -11,7 +11,9 @@ class Solution {
             }
             right = left;
 
-            while(left != ' ')
+            while(left != ' '){
+                left--;
+            }
         }
     }
 }
