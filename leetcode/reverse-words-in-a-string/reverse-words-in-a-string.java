@@ -2,6 +2,6 @@ class Solution {
     public String reverseWords(String s) {
         StringBuilder result = new StringBuilder();
 
-        int 
+        int left = s.le ng
     }
 }
