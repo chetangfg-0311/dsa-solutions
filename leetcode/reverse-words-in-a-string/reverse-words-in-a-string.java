@@ -3,6 +3,8 @@ class Solution {
         StringBuilder result = new StringBuilder();
 
         int left = s.length() - 1;
-        
+        int right = left;
+
+        whi
     }
 }
