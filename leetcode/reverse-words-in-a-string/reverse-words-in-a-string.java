@@ -9,7 +9,7 @@ class Solution {
             while(left > -1 && s.charAt(i) == ' '){
                 left--;
             }
-            right = left;
+            right = left + 1;
 
             while(left > - 1 && left != ' '){
                 left--;
