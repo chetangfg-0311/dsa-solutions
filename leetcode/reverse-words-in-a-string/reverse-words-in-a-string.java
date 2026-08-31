@@ -5,8 +5,8 @@ class Solution {
         int left = s.length() - 1;
         int right = left;
 
-        while(left > 0){
-            while(left > -1 &&s.charAt(i) == ' ')
+        while(left > -1){
+            while(left > -1 && s.charAt(i) == ' ')
         }
     }
 }
