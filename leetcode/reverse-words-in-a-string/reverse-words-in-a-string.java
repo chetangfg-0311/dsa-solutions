@@ -1,4 +1,6 @@
-er sb = new StringBuilder();
+Solution {
+    public String reverseWords(String s) {
+        StringBuilder sb = new StringBuilder();
 
         int left = s.length() - 1;
         int right = left;
