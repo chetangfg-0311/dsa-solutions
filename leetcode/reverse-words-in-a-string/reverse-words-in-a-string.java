@@ -1,5 +1,4 @@
-) - 1;
-        int right = left;
+int right = left;
 
         while(left > -1){
             while(left > -1 && s.charAt(left) == ' '){
@@ -15,6 +14,6 @@
         }
 
         String result = sb.toString();
-        return result.substring(0, result.)
+        return result.substring(0, result.length - 1)
     }
 }
