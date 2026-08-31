@@ -14,6 +14,6 @@ int right = left;
         }
 
         String result = sb.toString();
-        return result.substring(0, result.length - 1)
+        return result.substring(0, result.length - 1);
     }
 }
