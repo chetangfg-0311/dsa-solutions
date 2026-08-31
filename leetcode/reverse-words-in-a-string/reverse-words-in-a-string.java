@@ -1,5 +1,4 @@
-- 1;
-        int right = left;
+int right = left;
 
         while(left > -1){
             while(left > -1 && s.charAt(left) == ' '){
