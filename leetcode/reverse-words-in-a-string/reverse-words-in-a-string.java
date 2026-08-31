@@ -1,5 +1,4 @@
-class Solution {
-    public String reverseWords(String s) {
+(String s) {
         StringBuilder result = new StringBuilder();
 
         int left = s.length() - 1;
