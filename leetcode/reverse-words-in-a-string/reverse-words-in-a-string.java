@@ -11,10 +11,10 @@ class Solution {
             }
             right = left;
 
-            while(left left != ' '){
+            while(left > - 1 && left != ' '){
                 left--;
             }
-            result.append(left)
+            result.append(left )
         }
     }
 }
