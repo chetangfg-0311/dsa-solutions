@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
     public String reverseWords(String s) {
         StringBuilder result = new StringBuilder();
 
@@ -11,7 +11,7 @@ ass Solution {
             }
             right = left + 1;
 
-            while(left > -1 && left != ' '){
+            while(left > -1 && s.charAt(i) != ' '){
                 left--;
             }
             System.out.println("Left = " + left + " Right = " + right);
