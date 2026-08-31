@@ -5,6 +5,6 @@ class Solution {
         int left = s.length() - 1;
         int right = left;
 
-        while(left )
+        while(left > 0)
     }
 }
