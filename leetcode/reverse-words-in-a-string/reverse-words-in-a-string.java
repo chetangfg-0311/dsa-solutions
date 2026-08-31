@@ -1,4 +1,5 @@
-tring s) {
+class Solution {
+    public String reverseWords(String s) {
         StringBuilder result = new StringBuilder();
 
         int left = s.length() - 1;
@@ -17,6 +18,4 @@ tring s) {
             result.append(s.substring(left + 1, right) + " ");
         }
 
-        return result.toString();
-    }
-}
+        return result.to
