@@ -33,4 +33,4 @@ s consists only of lowercase English letters.
 
 See [longest-palindromic-subsequence.java](longest-palindromic-subsequence.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-31T15:33:25.511Z.
+> Synced by CodeSync on 2026-08-31T15:34:33.075Z.
