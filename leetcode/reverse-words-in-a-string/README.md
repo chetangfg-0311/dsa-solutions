@@ -45,4 +45,4 @@ Follow-up: If the string data type is mutable in your language, can you solve it
 
 See [reverse-words-in-a-string.java](reverse-words-in-a-string.java) for the submitted solution.
 
-> Synced by CodeSync on 2026-08-31T17:18:54.224Z.
+> Synced by CodeSync on 2026-08-31T17:19:03.137Z.
