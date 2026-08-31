@@ -1,4 +1,4 @@
-ords(String s) {
+rds(String s) {
         StringBuilder result = new StringBuilder();
 
         int left = s.length() - 1;
