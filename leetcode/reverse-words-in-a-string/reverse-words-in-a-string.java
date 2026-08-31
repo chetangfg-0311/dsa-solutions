@@ -1,7 +1,4 @@
-ringBuilder();
-
-        int left = s.length() - 1;
-        int right = left;
+t right = left;
 
         while(left > -1){
             while(left > -1 && s.charAt(left) == ' '){
@@ -16,7 +13,7 @@ ringBuilder();
             sb.append(s.substring(left + 1, right) + " ");
         }
 
-        String result = sb.toString()
-        return result;
+        String result = sb.toString();
+        // return result.substring(0, result.length() - 1);
     }
 }
