@@ -14,7 +14,7 @@ class Solution {
             while(left != ' '){
                 left--;
             }
-            result.append()
+            result.append(l )
         }
     }
 }
