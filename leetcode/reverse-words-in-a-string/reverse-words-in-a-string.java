@@ -11,7 +11,7 @@ class Solution {
             }
             right = left + 1;
 
-            while(left > -1 && s.charAt(i) != ' '){
+            while(left > -1 && s.charAt(left) != ' '){
                 left--;
             }
             System.out.println("Left = " + left + " Right = " + right);
