@@ -1,4 +1,4 @@
-StringBuilder sb = new StringBuilder();
+r sb = new StringBuilder();
 
         int left = s.length() - 1;
         int right = left;
@@ -16,6 +16,6 @@ StringBuilder sb = new StringBuilder();
             sb.append(s.substring(left + 1, right) + " ");
         }
 
-        return result.toString();
+        String result =  result.toString();
     }
 }
