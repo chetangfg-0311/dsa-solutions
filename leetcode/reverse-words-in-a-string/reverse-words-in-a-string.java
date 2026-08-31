@@ -6,7 +6,7 @@ class Solution {
         int right = left;
 
         while(left > 0){
-            while(s.charA)
+            while(s.charAt(i) == )
         }
     }
 }
