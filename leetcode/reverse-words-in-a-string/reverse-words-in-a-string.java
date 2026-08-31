@@ -14,7 +14,7 @@ class Solution {
             while(left > -1 && left != ' '){
                 left--;
             }
-            System.out.println("Left = " + left )
+            System.out.println("Left = " + left + "Right = " )
             result.append(s.substring(left + 1, right + 1));
         }
 
