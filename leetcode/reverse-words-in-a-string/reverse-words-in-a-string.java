@@ -11,7 +11,7 @@ class Solution {
             }
             right = left;
 
-            whi
+            while()
         }
     }
 }
