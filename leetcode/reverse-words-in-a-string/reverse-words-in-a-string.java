@@ -15,7 +15,7 @@ class Solution {
                 left--;
             }
             System.out.println("Left = " + left + " Right = " + right);
-            
+            System
             result.append(s.substring(left + 1, right + 1));
         }
 
