@@ -14,7 +14,7 @@ class Solution {
             while(left > -1 && left != ' '){
                 left--;
             }
-            result.append(left + 1, right + 1);
+            result.append(s);
         }
 
         return result.toString();
