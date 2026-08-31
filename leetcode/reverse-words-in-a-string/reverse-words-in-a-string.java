@@ -11,7 +11,7 @@ class Solution {
             }
             right = left + 1;
 
-            while(left > - 1 && left != ' '){
+            while(left > -1 && left != ' '){
                 left--;
             }
             result.append(left + 1, right + 1);
