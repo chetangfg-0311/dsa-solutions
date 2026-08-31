@@ -16,5 +16,7 @@ class Solution {
             }
             result.append(left + 1, right + 1);
         }
+
+        retur
     }
 }
