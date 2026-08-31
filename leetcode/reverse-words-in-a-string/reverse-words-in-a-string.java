@@ -14,6 +14,7 @@ class Solution {
             while(left != ' '){
                 left--;
             }
+            
         }
     }
 }
