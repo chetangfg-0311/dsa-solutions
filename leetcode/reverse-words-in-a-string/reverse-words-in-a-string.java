@@ -1,5 +1,4 @@
-ing reverseWords(String s) {
-        StringBuilder sb = new StringBuilder();
+er sb = new StringBuilder();
 
         int left = s.length() - 1;
         int right = left;
@@ -15,7 +14,7 @@ ing reverseWords(String s) {
             }
             System.out.println("Left = " + left + " Right = " + right);
             if(left != right){
-
+                sb.append(s.substring(left + 1, right) + " ");
             }
         }
 
