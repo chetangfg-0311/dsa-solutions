@@ -1,29 +1,37 @@
-class Solution:
-    def count_substrings_with_k_distinct_characters(self, s, k):
-        count = 0  # Initialize a counter for the substrings
-        character_count = dict()  # Initialize a dictionary to track character counts
-        start_index = 0  # Initialize the starting index of the current substring
-
-
-        for end_index in range(len(s)):
-            character_count[s[end_index]] = character_count.get(s[end_index], 0) + 1
-
-
-            while len(character_count) > k:
-                # Remove characters from the start of the substring until we have 'k' distinct characters
-                first_char = s[start_index]
-                if character_count[first_char] == 1:
-                    del character_count[first_char]
-                else:
-                    character_count[first_char] -= 1
-                start_index += 1
-
-
-            count += (end_index - start_index + 1)  # Increment the count based on substring length
-
-
-        return count
+class Solution {
     
-    def countSubstr (self, s, k):
-        # Code here
-        return self.count_substrings_with_k_distinct_characters(s, k) - self.count_substrings_with_k_distinct_characters(s, k - 1)
+    public int solutionForK1(String str){
+        HashMap<Character, Integer> map = new HashMap<>();
+        int totalSubstrings = 0;
+        int idx1 = 0;
+        int idx = 0;
+        while(idx < str.length()){
+            while(idx1 < str.length()){
+                map.put(str.charAt(idx1), map.getOrDefault(str.charAt(idx1), 0) + 1);
+                if(map.size() == 2){
+                    map.remove(str.charAt(idx1));
+                    break;
+                }
+                idx1++;
+            }
+            
+            while(map.size() == 1){
+                totalSubstrings += idx1 - idx;
+                map.put(str.charAt(idx), map.get(str.charAt(idx)) - 1);
+                
+                if(map.get(str.charAt(idx)) == 0){
+                    map.remove(str.charAt(idx));
+                }
+                idx++;
+            }
+        }
+        
+        return totalSubstrings;
+    }
+    public int countSubstr(String s, int k) {
+        //  code here
+        if(k == 1){
+            return solutionForK1(s);
+        }
+        HashMap<Character, Integer> map1 = new HashMap<>();
+        HashMap<Character, Integer> map2 = new HashMap<>();
